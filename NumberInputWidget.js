@@ -47,7 +47,8 @@ OO.ui.NumberInputWidget = function OoUiNumberInputWidget( config ) {
 
 	// Parent constructor
 	OO.ui.NumberInputWidget.super.call( this, $.extend( config, {
-		type: 'number'
+		// type: 'number'
+		type: 'text'
 	} ) );
 
 	if ( config.showButtons ) {
